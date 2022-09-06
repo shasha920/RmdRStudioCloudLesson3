@@ -1,0 +1,8 @@
+fruits<- c("Apple","Banana","Watermelon","Strawberry","kiwi")
+numbber_fruits<- c(1,2,3,4,5)
+fruit_ranks<- data.frame(fruits,numbber_fruits)
+head(fruit_ranks)
+str(fruit_ranks)
+glimpse(fruit_ranks)
+colnames(fruit_ranks)
+mutate(fruit_ranks,fruit_rank_5=numbber_fruits+5)
